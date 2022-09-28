@@ -23,12 +23,12 @@
 
 
     function createTable(){
-        //Esto es para borrar la tabla anterior:
+        
         var tabla = document.getElementById("tabla");
         if(tabla.rows.length > 0){
             tabla.innerHTML = "";
         }
-        //Crear la tabla
+       
         var num = document.getElementById("num").value;
         var table = document.getElementById("tabla");
         let cabecera = tabla.createTHead();
